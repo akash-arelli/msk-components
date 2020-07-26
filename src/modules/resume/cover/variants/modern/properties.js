@@ -19,7 +19,7 @@ const properties = {
     type: propertyTypes.STRING,
     value: 'https://mskdocuments.com/images/favicon.png',
     required: false,
-    
+    url:"https://github.com/ManojSatishkumar"
 
   },
   designation: {

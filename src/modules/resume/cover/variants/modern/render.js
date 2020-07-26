@@ -66,7 +66,7 @@ export default (
         }}
       >
         <div style={styles.avatarWrapper}>
-          <a href="https://github.com/ManojSatishkumar" target="_blank"><img style={{
+          <a href=imageUrl.url target="_blank"><img style={{
             ...styles.avatarImage,
             border: `5px solid ${theme.value.contrast}`
           }} src={imageUrl.value} /></a>
