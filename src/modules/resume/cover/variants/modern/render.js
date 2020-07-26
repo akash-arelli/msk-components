@@ -66,10 +66,10 @@ export default (
         }}
       >
         <div style={styles.avatarWrapper}>
-          <img style={{
+          <a href="https://github.com/ManojSatishkumar" target="_blank"><img style={{
             ...styles.avatarImage,
             border: `5px solid ${theme.value.contrast}`
-          }} src={imageUrl.value} />
+          }} src={imageUrl.value} /></a>
         </div>
 
 
