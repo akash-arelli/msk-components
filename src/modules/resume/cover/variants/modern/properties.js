@@ -17,9 +17,9 @@ const properties = {
   imageUrl: {
     name: 'Image URL',
     type: propertyTypes.STRING,
-    value: ['https://mskdocuments.com/images/favicon.png','https://github.com/ManojSatishkumar'],
-    required: false,
-    url:'https://github.com/ManojSatishkumar'
+    value: 'https://mskdocuments.com/images/favicon.png',
+    required: false
+
 
   },
   designation: {
@@ -45,6 +45,13 @@ const properties = {
     type: propertyTypes.NUMBER,
     value: '9999999999',
     required: true
+  },
+  gitHandle:{
+    name:'github profile',
+    type: propertyTypes.STRING,
+    value: 'https://github.com/ManojSatishkumar',
+    required:false
+
   },
 };
 

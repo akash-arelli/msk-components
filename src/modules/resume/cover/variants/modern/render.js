@@ -52,7 +52,8 @@ export default (
     company,
     emailId,
     phoneNo,
-    imageUrl
+    imageUrl,
+    gitHandle
   }
 ) => {
   const styles = useStyles()
@@ -66,10 +67,10 @@ export default (
         }}
       >
         <div style={styles.avatarWrapper}>
-          <a href={imageUrl.value[1]}  target="_blank"><img style={{
+          <a href={gitHandle.value} target="_blank"><img style={{
             ...styles.avatarImage,
             border: `5px solid ${theme.value.contrast}`
-          }} src={imageUrl.value[0]} /></a>
+          }} src={imageUrl.value} /></a>
         </div>
 
 
